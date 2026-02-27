@@ -14,7 +14,7 @@ export default function ContactPage() {
           <li>
             Email:{" "}
             <a className="underline text-zinc-200" href="mailto:you@email.com">
-              you@email.com
+              davidscales7@email.com
             </a>
           </li>
           <li>
@@ -26,7 +26,7 @@ export default function ContactPage() {
           <li>
             LinkedIn:{" "}
             <a className="underline text-zinc-200" href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
-              linkedin.com/in/your-handle
+              https://www.linkedin.com/in/david-scales-83492b264/
             </a>
           </li>
           <li>

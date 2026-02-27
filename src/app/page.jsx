@@ -28,17 +28,16 @@ export default function HomePage() {
         </div>
 
         <div className="grid gap-3 pt-4 sm:grid-cols-3">
-          {[
-            { k: "Frontend", v: "Next.js, React, Tailwind" },
-            { k: "Backend", v: "APIs, auth, DB basics" },
-            { k: "Shipping", v: "Deployments + clean code" },
-          ].map((x) => (
-            <div key={x.k} className="card p-4">
-              <p className="text-sm font-medium">{x.k}</p>
-              <p className="mt-1 text-sm text-white/60">{x.v}</p>
-            </div>
-          ))}
-        </div>
+       {[
+  { k: "Frontend", v: "JavaScript, React, Next.js, TypeScript, JSON, Tailwind CSS" },
+  { k: "Backend", v: "Node.js, Express, MongoDB, APIs,Render, MySQL, PostgreSQL" },
+  { k: "Shipping", v: "Git, deployments, clean structure, Github" },
+].map((x) => (
+  <div key={x.k} className="card p-4">
+    <p className="text-sm font-medium">{x.k}</p>
+    <p className="mt-1 text-sm text-white/60">{x.v}</p>
+  </div>
+))} </div>
       </section>
 
       <section className="space-y-4">
