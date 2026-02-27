@@ -1,26 +1,50 @@
 export const projects = [
   {
     title: "topmanrugby",
-    description:
-      "A rugby-focused web project. (Add 1–2 lines about the problem it solves and what you built.)",
+    slug: "topmanrugby",
+    description: "A rugby-focused web project...",
+    image: "/screenshots/TopmanMenu.png",
+    screenshots: [
+      "/screenshots/TopmanMenu.png",
+      "/screenshots/TopmanAboutUs.png",
+      "/screenshots/TopmanWhatIsRugby.png",
+    ],
     tech: ["Next.js", "Tailwind"],
-    href: "https://your-live-link.com",
-    repo: "https://github.com/your-username/topmanrugby",
+    href: "https://topmanrugby.com",
   },
   {
     title: "demoLanguageLearning",
-    description:
-      "A language learning demo app. (Mention key features: quizzes, flashcards, spaced repetition, etc.)",
+    slug: "demoLanguageLearning",
+    description: "A language learning demo app...",
+    image: "/screenshots/LanguageMenu.png",
+    screenshots: [
+      "/screenshots/LanguageMenu.png",
+      "/screenshots/LanguageFlashHome.png",
+      "/screenshots/LanguageLesson1.png",
+      "/screenshots/LanguageLesson2.png",
+      "/screenshots/LanguageLesson3.png",
+      "/screenshots/LanguageLessonsMenu.png",
+      "/screenshots/LanguageQuiz1.png",
+      "/screenshots/LanguageQuiz2.png",
+      "/screenshots/LanguageAccolades.png",
+    ],
     tech: ["Next.js", "Tailwind"],
-    href: "https://your-live-link.com",
+    href: "https://davidscales7.github.io/DemoFilipinoLearning/",
     repo: "https://github.com/your-username/demoLanguageLearning",
   },
   {
     title: "Project One",
-    description:
-      "Your third project — highlight the main feature and the tech used.",
+    slug: "project-one",
+    description: "Your third project...",
+    image: "/screenshots/Project1.png",
+    screenshots: [
+      "/screenshots/Project1.png",
+      "/screenshots/Project1LearnMenu.png",
+      "/screenshots/Project1LearnMenu2.png",
+      "/screenshots/Project1Lesson1.png",
+      "/screenshots/Project1Play.png",
+    ],
     tech: ["Next.js", "Tailwind"],
-    href: "https://your-live-link.com",
     repo: "https://github.com/your-username/project-one",
   },
 ];
