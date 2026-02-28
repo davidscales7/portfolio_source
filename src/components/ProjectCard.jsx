@@ -5,14 +5,15 @@ export default function ProjectCard({ project }) {
   return (
     <Link href={`/projects/${project.slug}`} className="card card-hover overflow-hidden block">
       {project.image && (
-        <div className="relative h-44 w-full">
-          <Image
-            src={project.image}
-            alt={`${project.title} screenshot`}
-            fill
-            className="object-cover object-top"
-          />
-        </div>
+       <div className="relative w-full overflow-hidden rounded-xl border border-white/10 aspect-[16/9] bg-black/20">
+  <Image
+    src={project.image}
+    alt={project.title}
+    fill
+    className="object-cover object-top"
+    sizes="(max-width: 640px) 100vw, 50vw"
+  />
+</div>
       )}
       <div className="p-5">
         <div className="flex items-start justify-between gap-4">

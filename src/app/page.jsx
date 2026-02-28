@@ -45,7 +45,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-2xl font-semibold tracking-tight">Featured work</h2>
             <p className="mt-1 text-sm text-white/60">
-              A couple highlights. See more on the projects page.
+              A couple of highlights. See more on the projects page.
             </p>
           </div>
           <Link href="/projects" className="text-sm text-white/70 hover:text-white">

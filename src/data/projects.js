@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: "topmanrugby",
-    slug: "topmanrugby",
+    title: "Topman rugby",
+    slug: "topman-rugby",
     description: "A responsive rugby website with smooth navigation and a contact form.",
     longDescription:
       "Responsive rugby-focused website built with React featuring routed sections, smooth scrolling navigation, and an EmailJS-powered contact form, styled with Tailwind CSS.",
@@ -15,8 +15,8 @@ export const projects = [
     href: "https://topmanrugby.com",
   },
   {
-    title: "demoLanguageLearning",
-    slug: "demoLanguageLearning",
+    title: "Language Website",
+    slug: "Language-Website",
      description: "A cross-platform language learning app with lessons, quizzes and progress tracking.",
  
     longDescription:

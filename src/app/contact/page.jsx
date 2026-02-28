@@ -17,12 +17,7 @@ export default function ContactPage() {
               davidscales7@email.com
             </a>
           </li>
-          <li>
-            GitHub:{" "}
-            <a className="underline text-zinc-200" href="https://github.com/your-username" target="_blank" rel="noreferrer">
-              github.com/your-username
-            </a>
-          </li>
+          
           <li>
             LinkedIn:{" "}
             <a className="underline text-zinc-200" href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
