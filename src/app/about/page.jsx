@@ -2,29 +2,28 @@ export const metadata = { title: "About" };
 
 export default function AboutPage() {
   return (
-    <section className="space-y-6">
+    <section className="space-y-6 max-w-2xl">
       <h1 className="text-3xl font-semibold">About</h1>
-
-      <p className="max-w-2xl text-zinc-300">
-        I’m a software developer who enjoys building modern web apps. I enjoy working on
+      <p className="text-zinc-300 leading-relaxed">
+        I'm a software developer who enjoys building modern web apps. I enjoy working on
         clean UI, performance, and well-structured code.
       </p>
-
-      <p className="max-w-2xl text-zinc-300">
-        Currently I am working as a labourer under a carpenter on a construction site in, in order to keep working. I am commited to improving my skills and building a strong foundation to flurish as a web developer. </p>
-
-
-      <p className="max-w-2xl text-zinc-300">
-        Also I run a home server to keep my projects and data safe and accessible.</p>
-
+      <p className="text-zinc-300 leading-relaxed">
+        Currently I am working as a labourer under a carpenter on a construction site, in
+        order to keep working. I am committed to improving my skills and building a strong
+        foundation to flourish as a web developer.
+      </p>
+      <p className="text-zinc-300 leading-relaxed">
+        Also I run a home server to keep my projects and data safe and accessible.
+      </p>
 
       <div className="rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 space-y-3">
         <h2 className="font-medium">Skills</h2>
         <ul className="list-inside list-disc text-sm text-zinc-300 space-y-1">
           <li>JavaScript / React / Next.js / TypeScript / JSON / Tailwind CSS</li>
           <li>APIs / Node.js / Express / MongoDB / Render / MySQL / PostgreSQL</li>
-          <li>Git / Deployment</li>        
-          <li>Windows/Linux</li>
+          <li>Git / Deployment</li>
+          <li>Windows / Linux</li>
         </ul>
       </div>
 
