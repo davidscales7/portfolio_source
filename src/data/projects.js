@@ -35,8 +35,7 @@ export const projects = [
     ],
     tech: ["React Native", "Expo", "Node.js", "MongoDB"],
     href: "https://davidscales7.github.io/DemoFilipinoLearning/",
-    repo: "https://github.com/your-username/demoLanguageLearning",
-  },
+   },
   {
     title: "Project One",
     slug: "project-one",
@@ -52,6 +51,5 @@ export const projects = [
       "/screenshots/Project1Play.png",
     ],
     tech: ["React", "Vite", "Tailwind CSS"],
-    repo: "https://github.com/your-username/project-one",
   },
 ];
